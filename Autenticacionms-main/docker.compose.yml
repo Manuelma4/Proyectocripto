@@ -1,0 +1,28 @@
+version: "3"
+
+services: 
+  autenticacionms:
+    container_name: autenticacionms
+    restart: always
+    build: .
+    ports: 
+      - "3002:3002"
+    links:
+      - autenticaciondb
+    volumes: 
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    logging: 
+          options: 
+               max-size: "10m" 
+               max-file: "3"
+    
+  autenticaciondb:
+    container_name: autenticaciondb
+    image: mongo
+    ports: 
+      - "20019:20019"
+    logging:
+options: 
+               max-size: "10m" 
+               max-file: "3"
