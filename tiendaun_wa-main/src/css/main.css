@@ -1,0 +1,571 @@
+body{
+  font-size: 14px;
+}
+
+
+.signup-background {
+  background-color: #eae213;
+}
+
+
+.navBar{
+  background-color: #4C015D;
+  position: fixed;  
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.logoNav {
+  width: 60%;
+  height: auto;
+}
+.inputFile {
+  position: relative;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+.logoNav{
+  margin-left: 5rem;
+}
+.navBarLink {
+  width: 40px;
+  height: auto;
+}
+.navBarLinkUser {
+  width: 31px;
+  height: auto;
+}
+ul {
+  list-style: none;
+}
+.product-search {
+  display: flex;
+  align-items: center;
+  width: 40rem;
+  height: 2.2rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.product-search input {
+  flex: 1;
+  height: 100%;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  border-radius: 15%;
+}
+
+.catalogueInput::placeholder {
+  font-size: 1rem;
+  padding-left: 0;
+  color:rgba(0,0,0,0.3);
+}
+
+.product-search button {
+  width: 80px;
+  height: 100%;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #4C015D;
+  background-color: #FFA800;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.logoLogin {
+  width: 300px;
+  height: 120rem;
+}
+input::placeholder { /* agregamos una regla CSS para el selector ::placeholder */
+  font-size: 1.15rem; /* establecemos el tamaño de la fuente del placeholder */
+  padding: 0.5rem;
+}
+.inputBox {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.inputBox h1 {
+  font-size: 1.2rem;
+}
+.no-underline {
+  color: #4C015D;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  .center-horizontal {
+    justify-content: center;
+    margin-left: 30rem;
+  }
+}
+
+.carouselImages {
+  width: 80%;
+
+}
+.carouselImages img {
+  width: 100%;
+
+  height: 14rem;
+}
+
+
+.current-slide {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+.slick-slide {
+  width: 80%;
+  height: 15rem;
+}
+.slick-track{
+  width: 50%;
+}
+.slick-slide img {
+  width: 80%;
+  height: 15rem;
+}
+
+.sign-up{
+  margin-top: -6rem;
+}
+
+.sign-up-center{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.myCard {
+  width: 15rem;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.myCard2 {
+  width: 15rem;
+  height: 20rem;
+  background: rgb(255, 255, 255);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 3px solid rgba(76,1,93,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.myCard2 img{
+  margin-top: 1.1rem;
+  margin-left: 0.35rem;
+}
+
+.myCardBottom {
+  width: 15rem;
+  height: 3.5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 264px;
+  left: 0px;
+  overflow: hidden;
+  border-radius: 0px 0px 10px 10px;
+}
+.myCardBottom2 {
+  width: 256px;
+  height: 68px;
+  background: rgba(76,1,93,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.cardTitle {
+  width: 10rem;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 12px;
+  left: 23px;
+  /* font-family: Rubik; */
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.cardPrice {
+  width: 10rem;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 33px;
+  left: 23px;
+  /* font-family: Rubik; */
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.carrusel-container {
+  height: 50%;
+  margin-bottom: 30px;
+  background-color: rgba(97, 0, 167, 0.8);
+}
+
+
+.categoryFilterButton.btn{
+  margin-bottom:'16px';
+  margin-top:'16px';
+  background-color:#ffffff;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #4C015D;
+}
+.categoryFilterButton.btn:hover{
+  margin-bottom:'16px';
+  margin-top:'16px';
+  background-color:#4C015D;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+.categoryFilterButton.selected {
+  background-color: #4C015D;
+  color: white;
+}
+
+.filter h3 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: #FFA800;
+  padding: 10px;
+  border-radius: 10px;
+}
+.filterDiv{
+  margin-bottom: 10px;
+}
+.filterButton button{
+  margin-bottom: 10px;
+  background-color: #4C015D;
+  color: #ffffff;
+
+}
+.filterButton button:hover{
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  color: #4C015D;
+  border: 2px solid #4C015D;
+}
+.inputPrice input{
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #4C015D;
+}	
+.selectContainer {
+  position: relative;
+  display: inline-block;
+ 
+}
+
+.selectContainer:after {
+  content: "";
+  top: 50%;
+  right: 0.5rem;
+  
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+select {
+  appearance: none;
+  outline: none;
+  border: 2px solid #333;
+  background-color: #fff;
+  color:#4C015D;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 30rem;
+}
+
+select:hover {
+  background-color: #f2f2f2;
+}
+
+select:focus {
+  border-color: #666;
+}
+.productsSearchNavbar{
+  width: 35em; /* Establece un ancho máximo para limitar el tamaño de los elementos */
+  overflow: hidden; /* Oculta el contenido que excede el tamaño del contenedor */
+  white-space: nowrap; /* Evita que los elementos se dividan en varias líneas */
+  text-overflow: ellipsis; /* Agrega puntos suspensivos (...) cuando el contenido desborda el contenedor */
+  text-align: left;
+  background-color: #ffffff;
+  margin-left: 0rem;
+  position: absolute; /* Asegura que el elemento tenga una posición definida */
+  top:3.5rem;
+  z-index: 2;
+}
+
+.productSuggestion{
+padding:0.5em;
+margin:0;
+width:100%;
+text-align: left;
+border:none;
+transition: 0.3s;
+border: 0.03rem solid #4C015D;
+}
+
+.productSuggestion:hover{ 
+  background-color: #d89dff;
+  color:white;
+  transition: 0.3s;
+}
+.productDetail{
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+.productDetailImage{
+  width: 100%;
+  height: 100%;
+  padding: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  object-fit: cover;
+  background-color: #cdcaca2c;
+}
+.productDetailData p{
+  color: #000000ed;
+  font-size: 1.3rem;
+}
+.productDetailData {
+  margin-left: 2rem;
+}
+
+.navButton{
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  border: none;
+}
+
+.LogOutButton img{
+  margin-left: 0.2rem;
+  margin-right: 0.4rem;
+  border: none;
+  width: 2.2rem;
+}
+.CreateProductButton img{
+  margin-left: 0.2rem;
+  margin-right: 0.4rem;
+  border: none;
+  width: 2.2rem;
+}
+
+.navUsername{
+  border: transparent 1px solid;
+  overflow: hidden;
+  margin-left: 0rem;
+  margin-top: 0rem;
+  color:white;
+}
+
+.navUsername img {
+  width: 2.2rem;
+  margin-left: 5rem;
+}
+
+
+@media (min-width: 1367px) {
+  .navUsername {
+    border: transparent 1px solid;
+    overflow: hidden;
+    display: flexbox;
+    margin-left: -5rem;
+    margin-top: 0rem;
+    max-width: 12rem;
+    color:#FFA800;
+  }
+}
+
+
+.spinner1{
+  position:absolute;
+  height: auto;
+  display: block;
+  margin-left: 45%;
+  width: 10%;
+  margin-top: 18%;
+
+}
+
+.smallSpinner{
+  width:4rem;
+  height: auto;
+}
+
+
+.navLogoutLink{
+  color: #FFA800;
+}
+
+.signUpCenter{
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.signUpCenterLogo{
+  display: block;
+  margin-left: 7rem;
+  margin-right: auto;
+  width: 60%;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.photo-container {
+  margin-right: 10px;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.info-container {
+  margin-bottom: 10px;
+  border: 1px solid #dedad5;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  color: #4C015D;
+  background-color: #f6eeee;
+  font-size: 14px;
+  font-weight: 2000;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.box {
+  margin-bottom: 25px;
+  border: 60px solid #eeeaea;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  color: #4C015D;
+  background-color: #FFA800;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.box1 {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 30px solid #eeeaea;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  color: #4C015D;
+  background-color: #FFA800;
+  width: 180px;
+  height: 80px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.LogOutButton1 img{
+  margin-left: 8rem;
+  border: none;
+  width: 2.2rem;
+  color: #4C015D;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+@media (min-width: 992px) {
+  .SignUpInput {
+    width: 42rem;
+  }
+  .SignUpInput2 {
+    width: 20rem;
+  }
+  .SignUpInput3{
+    margin-left: 1.8rem;
+  }
+}
+.LoginInput input{
+  width: 30rem;
+}
+.createProduct input{
+  width: 30rem;
+}
